@@ -86,7 +86,6 @@ public class MinCostToHireKWorkers {
         private double ratio;
         private int quality;
 
-
         Worker(double ratio, int quality) {
             this.ratio = ratio;
             this.quality = quality;
@@ -104,5 +103,4 @@ public class MinCostToHireKWorkers {
             return diff > 0 ? 1 : -1;
         }
     }
-
 }
