@@ -1,6 +1,8 @@
 package com.leetcode;
 
-
+/*
+Solution to the leet code problem 23
+ */
 public class MergeKSortedLists {
 
     public ListNode mergeKLists(ListNode[] lists) {
