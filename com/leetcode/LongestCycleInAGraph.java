@@ -50,7 +50,6 @@ public class LongestCycleInAGraph {
         Map<Integer, Integer> thisMap = new HashMap<>();
         List<Integer> paths = new ArrayList<>();
 
-        int longest = 0;
         Deque<NodeAndLength> dq = new LinkedList<>();
         dq.add(new NodeAndLength(node, 0));
 
